@@ -2,14 +2,12 @@
 layout: project_page
 permalink: /
 
-title: M-Loss: Quantifying Model Merging Compatibility with Limited Unlabeled Data
-authors: >
-Tiantong Wang<sup>1</sup>, Yiyang Duan<sup>1</sup>, Haoyu Chen<sup>1,2</sup>, Tiantong Wu<sup>3</sup><sup>*</sup>, Wei Yang Bryan Lim<sup>1</sup><sup>†</sup>
-affiliations: >
-College of Computing and Data Science, Nanyang Technological University<sup>1</sup>, School of Computer and Information Technology, Beijing Jiaotong University<sup>2</sup>, Alibaba-NTU Global e-Sustainability CorpLab (ANGEL)<sup>3</sup>
-paper: https://openreview.net/forum?id=eJz0fKa8xg
-code: https://github.com/languangduan/mLoss
-data: https://github.com/mlfoundations/task_vectors
+title: "M-Loss: Quantifying Model Merging Compatibility with Limited Unlabeled Data"
+authors: "Tiantong Wang<sup>1</sup>, Yiyang Duan<sup>1</sup>, Haoyu Chen<sup>1,2</sup>, Tiantong Wu<sup>3</sup><sup>*</sup>, Wei Yang Bryan Lim<sup>1</sup><sup>†</sup>"
+affiliations: "College of Computing and Data Science, Nanyang Technological University<sup>1</sup>, School of Computer and Information Technology, Beijing Jiaotong University<sup>2</sup>, Alibaba-NTU Global e-Sustainability CorpLab (ANGEL)<sup>3</sup>"
+paper: "https://openreview.net/forum?id=eJz0fKa8xg"
+code: "https://github.com/languangduan/mLoss"
+data: "https://github.com/mlfoundations/task_vectors"
 ---
 <!-- Using HTML to center the abstract -->
 
