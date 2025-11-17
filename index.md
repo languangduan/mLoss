@@ -31,7 +31,8 @@ Comparatively, model ensembling generally provides more stable and superior perf
 
 The discrepancy between model merging and ensembling arises mainly from non-linear activations. We examine the flow of intermediate representations around activations and identify linearly correlated model parameters (LCP): parameter subsets that jointly influence a node’s representation in a row-wise manner, motivating layer-/node-level measurements and row-wise operations.
 
-<img src="/static/image/LCP.png" alt="LCP" style="zoom:50%;" />
+
+![LCP](/static/image/LCP.png)
 
 *Visualization of Linearly Correlated Parameters (LCP) in a neural network .*
 
@@ -64,7 +65,7 @@ The proposed framework, M-Loss for Mergeability and Merge-Guided Pruning, addres
    - Plug these keep rates into standard merging backends (e.g., TIES, DARE) to perform pruning/scheduling and parameter fusion.
    - Resulting merged models better align with ensembling performance while reducing inference and storage overhead.
 
-<img src="/static/image/MLOSS.png" alt="MLOSS"  />
+![MLOSS](/static/image/MLOSS.png)
 
 *Conceptual overview of M-Loss and its use in M-TIES.    (a) M-Loss measures the discrepancy between parameter-averaged and ensembled representations on unlabeled data, producing layer-/node-wise scores.    (b) The node-wise M-Loss score map drives dynamic row-wise keep rates, which integrate with standard merging backends (e.g., TIES Top-K or DARE) to improve mergeability and efficiency.*
 
@@ -145,7 +146,8 @@ We investigated the effect of applying the M-Loss guided pruning strategy to onl
 
 To intuitively understand the conflicts between models, we plotted a heatmap of the M-Loss distribution across different layers and node groups in ViT-B/32. As shown below, areas of high M-Loss (representing high conflict) are not uniformly distributed but are concentrated in specific layers and nodes. This finding strongly justifies that **adopting a dynamic, node-level pruning strategy (like M-TIES) is more reasonable than a fixed, global pruning strategy (like TIES)**.
 
-<img src="/static/image/NODE.png" alt="NODE"  />
+
+![NODE](/static/image/NODE.png)
 *Layer-wise and node-group M-Loss distribution heatmap for ViT-B/32 models. Each colored block represents the average M-Loss of 50 consecutive nodes.*
 
 #### **Computational Cost**
