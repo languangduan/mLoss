@@ -105,7 +105,8 @@ Specifically, on ViT-B/32, M-TIES achieves the highest average accuracy (73.23%)
 
 Furthermore, M-TIES demonstrates better stability. On ViT-B/32, the accuracy variance of M-TIES across different tasks (172.22) is lower than that of TIES (203.27) and DARE (197.61), indicating that our method performs more consistently and does not disproportionately favor high-accuracy tasks.
 
-**Table 1:  Accuracy comparison of merging methods on ViT-B/32 and ViT-L/14 backbones. **
+**Table 1:  Accuracy comparison of merging methods on ViT-B/32 and ViT-L/14 backbones.**
+
 
 | **Backbone** | **Method**      | **RESISC45** | **Cars**  | **MNIST** | **DTD**   | **EuroSAT** | **GTSRB** | **SUN397** | **SVHN**  | **Avg**   |
 | :----------- | :-------------- | :----------- | :-------- | :-------- | :-------- | :---------- | :-------- | :--------- | :-------- | :-------- |
