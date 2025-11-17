@@ -21,7 +21,7 @@ data: "https://github.com/mlfoundations/task_vectors"
         </div>
     </div>
 </div>
-]
+
 
 ## **Background**
 
